@@ -1,0 +1,20 @@
+  Styling. The document
+s elements must have the following styles:
+The width of btns is 75% , relative to the document body s width.
+Each button (i.e., btn1 through btn9) satisfies the following:
+The width is 30%, relative to its container width.
+The height is 48px.
+The font-size is 24px. 
+
+#btns
+{
+    width:75%;
+}  
+
+#btns > button 
+{
+    width: 30%;
+    height: 48px;
+    font-size: 24px;
+}
+
