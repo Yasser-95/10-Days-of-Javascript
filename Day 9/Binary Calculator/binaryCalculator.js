@@ -47,6 +47,14 @@ function actionClick(e) {
            
 }
 
+// We can use the Math.floor function to ensure that our calculator discards any remainders in Integer Division. 
+
+// Binary Numbers to Integer Strings
+//To convert a non-base-10 number,num , of radix (r) to a base-10 integer string, we use the syntax num.toString(r). 
+
+// The eval Function
+// We can use this function to evaluate a string representing an expression. If the string consists of base-10
+// integers and mathematical operators, this function calculates the result of the mathematical expression.
 
 function evaluate() {
     var operand = resultdiv.innerHTML.split(operator);
